@@ -66,16 +66,35 @@ FIGURE -03
 
 
 
-PROGRAM 
- 
- 
- 
- 
- 
+### PROGRAM :
+
+int ledpin=3;
+int pushbtn=2;
+int val=0;
+void setup()
+{
+  pinMode(ledpin, OUTPUT);
+  pinMode(pushbtn,INPUT);
+}
+
+void loop()
+{
+  val=digitalRead(pushbtn);
+  
+    if(val==HIGH)
+    {
+      digitalWrite(ledpin,LOW);
+    }
+    else
+      digitalWrite(ledpin,HIGH);
+  
+}
 
 
+### Output of the simulation :
 
-Output of the simulation :
+![output](./rex1.png)
 
-[My image](username.github.com/repository/img/image.jpg)
 
+### Result:
+Thus Simulation output is completed in tinkercard sucessfully.
