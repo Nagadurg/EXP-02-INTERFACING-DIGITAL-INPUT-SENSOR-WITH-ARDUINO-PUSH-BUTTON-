@@ -93,7 +93,7 @@ void loop()
 
 ### Output of the simulation :
 
-![output](./rex1.png)
+![output](./1...png)
 
 
 ### Result:
